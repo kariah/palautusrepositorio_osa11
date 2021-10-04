@@ -1,0 +1,21 @@
+1. Some common steps in a CI setup include linting, testing, and building. What are the specific tools for taking care of these steps in the ecosystem of the language you picked? 
+Picked language C# .NET:
+We could use Visual Studio Tools with code quality for example Sonarqube. With Visual Studio we could use ReSharper.
+There are different testing frameworks MSTest, NUnit from which to choose and create tests
+We could start building Continuous Integration of ASP.NET Core application using Jenkins. This could be done in Azure
+Next step could be to publish the ASP.Net core application to Azure App Service and Configure Jenkins on Azure
+Then we could Integrate Jenkins with Azure Active Directory and Service Principal andJenkins Azure Pipeline.
+
+2. What alternatives are there to set up the CI besides Jenkins and GitHub Actions? -
+- Team City for DevOps Teams.
+- CircleCI. Continuous integration and delivery platform helps software 
+- Azure Pipelines. 
+
+3. Self-hosted or a cloud-based environment? Why? What information would you need to make that decision?
+- Security: Cloud computing systems are significantly better secured than self-hosting services except some cases restricted (police, government). Sometimes hosting is only option because of restricting access or security-level
+- Software: Self-hosted systems need to make use of an internet server, Cloud-based have ready "backbone" (reducing the external support the systems require)
+- Accessibility: A self-hosted system, on the other hand, in addition to requiring internet connectivity, also needs a VPN setup. Cloud-based available anywhere
+- Cost: Cloud based is cheaper (hardware, extending etc.
+- Eco-Friendly: Hosting generates a lot of by-products that are harmful to the environment. The cloud is not physical.
+
+ 
